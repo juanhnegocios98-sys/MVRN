@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAVREN — DROP 001</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#">MAVREN</a>
+  <nav>
+    <a href="#shop">SHOP</a>
+    <a href="#drop">DROP 001</a>
+    <a href="https://www.instagram.com/mvrn_co/?hl=es-la" target="_blank">INSTAGRAM</a>
+  </nav>
+  <button class="cart-btn" id="openCart">CARRITO <span id="cartCount">0</span></button>
+</header>
+
+<main>
+<section class="hero" id="drop">
+  <div>
+    <p class="eyebrow">MAVREN / 001</p>
+    <h1>DROP<br><span>001</span></h1>
+    <p class="hero-copy">Una primera colección. Siete piezas. Sin exceso.</p>
+    <a class="button" href="#shop">VER DROP</a>
+  </div>
+  <div class="hero-image">
+    <img src="assets/image1.png" alt="MAVREN Drop 001">
+  </div>
+</section>
+
+<section class="shop" id="shop">
+  <div class="section-head">
+    <p class="eyebrow">COLLECTION</p>
+    <h2>DROP 001</h2>
+  </div>
+  <div class="products" id="products"></div>
+</section>
+
+<section class="info">
+  <div><span>01</span><h3>SELECCIONA</h3><p>Elige tu camiseta y talla.</p></div>
+  <div><span>02</span><h3>ARMA TU PEDIDO</h3><p>Añade todas las piezas que quieras al carrito.</p></div>
+  <div><span>03</span><h3>WHATSAPP</h3><p>Confirma y envía el pedido directamente a MAVREN.</p></div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-logo">MAVREN</div>
+  <div>
+    <a href="https://www.instagram.com/mvrn_co/?hl=es-la" target="_blank">@mvrn_co</a>
+    <a href="https://wa.me/573150472837" target="_blank">WHATSAPP</a>
+  </div>
+  <p>© 2026 MAVREN — DROP 001</p>
+</footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="cart" id="cart">
+  <div class="cart-head"><h2>CARrito</h2><button id="closeCart">×</button></div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-footer">
+    <div class="total"><span>TOTAL</span><strong id="cartTotal">$0</strong></div>
+    <button class="checkout" id="checkout">PEDIR POR WHATSAPP</button>
+    <p class="shipping-note">El costo del envío depende de la ciudad.</p>
+  </div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
